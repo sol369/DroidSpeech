@@ -45,7 +45,7 @@ public class DroidSpeech
     private Button confirm, retry;
     private DroidSpeechPermissions droidSpeechPermissions;
     private SpeechRecognizer droidSpeechRecognizer;
-    private Intent speechIntent;
+    public Intent speechIntent;
     private AudioManager audioManager;
     private Handler restartDroidSpeech = new Handler();
     private Handler droidSpeechPartialResult = new Handler();
